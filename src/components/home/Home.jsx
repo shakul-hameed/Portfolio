@@ -13,17 +13,18 @@ const Home = () => {
         <h1 className="home_name">Shakul</h1>
         <span className="home_education">I&apos;m a Front-End developer</span>
 
-        <HeaderSocials/>
-    
-        <a href="#contact" className="btn">Hire Me</a>
+        <HeaderSocials />
 
-        <ScrollDown/>
+        <a href="#contact" className="btn">
+          Hire Me
+        </a>
+
+        <ScrollDown />
       </div>
 
-      <Shapes/>
-
+      <Shapes />
     </section>
-  )
-}
+  );
+};
 
 export default Home
